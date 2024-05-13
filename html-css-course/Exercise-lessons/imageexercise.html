@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 7</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .car-image {
+        width: 200px;
+        border-radius: 20px;
+      }
+      .car-round-center {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+      }
+      .car-round {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+      .search-header {
+        border-radius: 10px;
+        width: 200px;
+        border: 0.5px solid gray;
+        height: 30px;
+      }
+      .google-searchbox {
+        width: 300px;
+        height: 20px;
+        border: none;
+        border-radius: 15px;
+        padding-left: 10px;
+        margin-top: 20px;
+        font-family: Montserrat;
+        font-size: 10px;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+      }
+      .email_part {
+        color: gray;
+        font-size: 10px;
+        font-family: Montserrat;
+        margin-bottom: 0;
+      }
+      .email_searchbox {
+        color: gray;
+        font-size: 11px;
+        font-family: Montserrat;
+        width: 285px;
+        height: 25px;
+        margin-top: 10px;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+        border: 0.5px solid gray;
+        border-radius: 5px;
+      }
+      .permission {
+        color: gray;
+        font-size: 10px;
+        font-family: Montserrat;
+        width: 300px;
+      }
+      .button-asking {
+        width: 285px;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+        background-color: rgb(38, 93, 234);
+        color: #fff;
+        font-family: Montserrat;
+        text-align: center;
+        cursor: pointer;
+      }
+      .div {
+        width: 400px;
+        height: 50px;
+        border: 1px solid gray;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+      .user-img {
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        float: left;
+        object-fit: cover;
+        object-position: center;
+        margin: 5px;
+      }
+      .inside-p {
+        color: gray;
+        font-size: 20px;
+        font-family: Montserrat;
+        margin-top: 0;
+        padding-top: 12px;
+        float: left;
+        margin-left: 10px;
+      }
+      .tweet-button {
+        width: 80px;
+        height: 30px;
+        background-color: rgb(2, 158, 255);
+        border: none;
+        border-radius: 15px;
+        color: #fff;
+        text-align: center;
+        margin-top: 10px;
+        float: left;
+        margin-left: 40px;
+        cursor: pointer;
+        transition: opacity 0.15s;
+      }
+      .tweet-button:hover {
+        opacity: 0.7;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="car-image" src="@Wallpaper_4K3D (12038).jpg" alt="" />
+    <img class="car-round-center" src="@Wallpaper_4K3D (12038).jpg" alt="" />
+    <img class="car-round" src="@Wallpaper_4K3D (12038).jpg" alt="" />
+    <input class="search-header" type="text" placeholder="Search" />
+    <input
+      class="google-searchbox"
+      type="text"
+      placeholder="Search Google or type a URL"
+    />
+    <p class="email_part">Email</p>
+    <input
+      class="email_searchbox"
+      type="email"
+      placeholder="Enter your Email"
+    />
+    <p class="permission">
+      By clicking Agree&Join you are agree to the Privacy Policy.
+    </p>
+    <button class="button-asking">Agree&Join</button>
+    <div class="div">
+      <img class="user-img" src="@Wallpaper_4K3D (12038).jpg" alt="" />
+      <p class="inside-p">What is happening?</p>
+      <button class="tweet-button">Tweet</button>
+    </div>
+  </body>
+</html>

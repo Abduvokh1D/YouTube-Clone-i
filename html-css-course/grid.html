@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid</title>
+  </head>
+  <body style="padding-bottom: 1000px">
+    <!-- First version of Grid -->
+    <div
+      style="
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 100px 100px;
+      "
+    >
+      <div style="background-color: lightblue">Div 1</div>
+      <div style="background-color: lightpink">
+        Div 2
+        <p>Text</p>
+      </div>
+    </div>
+    <!-- Second version of Grid -->
+    <div
+      style="
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 100px 100px 200px;
+      "
+    >
+      <div style="background-color: lightblue">100px</div>
+      <div style="background-color: lightpink">100px</div>
+      <div style="background-color: greenyellow">200px</div>
+      <div style="background-color: lightpink">100px</div>
+    </div>
+    <!-- Third version of Grid -->
+    <div
+      style="margin-top: 30px; display: grid; grid-template-columns: 100px 1fr"
+    >
+      <div style="background-color: lightblue">100px</div>
+      <div style="background-color: lightpink">Fr</div>
+    </div>
+
+    <!-- 4th version of Grid -->
+    <div
+      style="
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 100px 1fr 2fr;
+      "
+    >
+      <div style="background-color: lightblue">100px</div>
+      <div style="background-color: lightpink">Fr</div>
+      <div style="background-color: lightblue">2Fr</div>
+    </div>
+    <!-- 5th version of Grid -->
+    <div
+      style="
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 40px;
+      "
+    >
+      <div style="height: 200px; background-color: lightblue">1Fr</div>
+      <div style="height: 200px; background-color: lightpink">1Fr</div>
+      <div style="height: 200px; background-color: lightblue">1Fr</div>
+      <div style="height: 200px; background-color: lightpink">1Fr</div>
+      <div style="height: 200px; background-color: lightblue">1Fr</div>
+      <div style="height: 200px; background-color: lightpink">1Fr</div>
+    </div>
+  </body>
+</html>
